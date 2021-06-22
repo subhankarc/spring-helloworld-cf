@@ -1,0 +1,6 @@
+---
+applications:
+- name: spring-helloworld-cf
+  instances: 1
+  host: spring-helloworld-cf
+  path: target/spring-helloworld-cf-0.0.1-SNAPSHOT.jar
